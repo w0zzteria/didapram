@@ -1779,7 +1779,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		position: relative;
+		position: flex;
 		display: inline-block;
 		justify-content: center;
 		border: 0;
