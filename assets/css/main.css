@@ -2060,7 +2060,7 @@ input, select, textarea {
 		text-align: center;
 		border-radius: 10px;
 		text-decoration: none;
-		padding: 0.65em 3em 0.65em 3em;
+		padding: 10px 20px;
 		border: 0;
 		cursor: pointer;
 		outline: 0;
