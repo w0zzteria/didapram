@@ -239,21 +239,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-			<script>
-				document.querySelectorAll('.scrolly').forEach(link => {
-					link.addEventListener('click', function(e) {
-						e.preventDefault();
-						const targetId = this.getAttribute('href').substring(1);
-						const targetElement = document.getElementById(targetId);
-						if (targetElement) {
-							window.scrollTo({
-								top: targetElement.offsetTop - 50, // Adjust the offset to appear slightly down
-								behavior: 'smooth'
-							});
-						}
-					});
-				});
-			</script>
 
 	</body>
 </html>
