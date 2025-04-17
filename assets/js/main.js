@@ -45,7 +45,7 @@
 
 	// Scrolly.
 		$('.scrolly').scrolly({
-			offset: 50
+			offset: 20
 		});
 
 	// Nav.
